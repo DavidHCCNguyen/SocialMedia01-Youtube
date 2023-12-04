@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>YouTube Clone</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="logo.png" alt="YouTube Logo" class="youtube-logo" />
+    </a>
+    <form class="search-bar">
+      <input class="search-input" type="search" placeholder="Search" aria-label="Search" />
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" />
+      </button>
+    </form>
+    <div class="menu-icons">
+      <a href="#">
+        <img src="video-plus.svg" alt="Upload Video" />
+      </a>
+      <a href="#">
+        <img src="apps.svg" alt="Apps" />
+      </a>
+      <a href="#">
+        <img src="bell.svg" alt="Notifications" />
+      </a>
+      <a href="#">
+        <img class="menu-channel-icon" src="http:///unsplash.it/36/36?gravity=center" alt="Your Channel" />
+      </a>
+    </div>
+  </header>
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">All</button>
+      <button class="category">Category 1</button>
+      <button class="category">Category 2</button>
+      <button class="category">Category 3</button>
+      <button class="category">Category 4</button>
+      <button class="category">Category 5</button>
+      <button class="category">Category 6</button>
+      <button class="category">Category 7</button>
+      <button class="category">Category 8</button>
+      <button class="category">Category 9</button>
+    </section>
+  </div>
+  <div class="videos">
+    <section class="video-section">
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="8:45">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Eerie Encounters</a>
+            <a href="#" class="video-channel-name">Paranormal Enthusiasts</a>
+            <div class="video-metadata">
+              <span>120K views</span>
+              •
+              <span>8 months ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="6:15">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Extreme Adventure in Iceland</a>
+            <a href="#" class="video-channel-name">Adventurous Explorers</a>
+            <div class="video-metadata">
+              <span>75K views</span>
+              •
+              <span>2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="0:45">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Spine-Chilling Moments</a>
+            <a href="#" class="video-channel-name">Thrill Seeker</a>
+            <div class="video-metadata">
+              <span>5K views</span>
+              •
+              <span>1 day ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="1:59:30">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Classic Movie: Midnight Madness</a>
+            <a href="#" class="video-channel-name">Vintage Cinema</a>
+            <div class="video-metadata">
+              <span>500K views</span>
+              •
+              <span>1 month ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="14:12">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Exploring Hidden Caves</a>
+            <a href="#" class="video-channel-name">Nature Adventurers</a>
+            <div class="video-metadata">
+              <span>20K views</span>
+              •
+              <span>3 days ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="8:30">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Amazing Aerial Views</a>
+            <a href="#" class="video-channel-name">SkyHigh Productions</a>
+            <div class="video-metadata">
+              <span>80K views</span>
+              •
+              <span>2 months ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="video-section">
+      <h2 class="video-section-title">
+        Creepy Corner
+        <button class="video-section-title-close">&times;</button>
+      </h2>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="20:15">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Haunted Mansion Exploration</a>
+            <a href="#" class="video-channel-name">Ghost Seekers</a>
+            <div class="video-metadata">
+              <span>250K views</span>
+              •
+              <span>4 months ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="3:45">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Mysterious Shadows in the Forest</a>
+            <a href="#" class="video-channel-name">Enigma Explorers</a>
+            <div class="video-metadata">
+              <span>30K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="5:20">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Whispers in the Abandoned Asylum</a>
+            <a href="#" class="video-channel-name">Haunted Chronicles</a>
+            <div class="video-metadata">
+              <span>15K views</span>
+              •
+              <span>2 days ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:10:50">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Unexplained Paranormal Phenomena</a>
+            <a href="#" class="video-channel-name">Eerie Investigations</a>
+            <div class="video-metadata">
+              <span>500K views</span>
+              •
+              <span>1 month ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="3:45">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Mysterious Shadows in the Forest</a>
+            <a href="#" class="video-channel-name">Enigma Explorers</a>
+            <div class="video-metadata">
+              <span>30K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="3:45">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Mysterious Shadows in the Forest</a>
+            <a href="#" class="video-channel-name">Enigma Explorers</a>
+            <div class="video-metadata">
+              <span>30K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
